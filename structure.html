@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="am" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>አዲስ ዲጂታል ስኪልስ አካዳሚ | Addis Digital Skills Academy</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Ethiopic/Amharic Support -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans Ethiopic', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- 1. Sticky Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-blue-600 tracking-tight flex items-center gap-2">
+                        <i class="fa-solid fa-graduation-cap text-3xl"></i>
+                        አዲስ ዲጂታል ስኪልስ
+                    </span>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8 font-medium">
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors">ስለ እኛ</a>
+                    <a href="#courses" class="text-gray-600 hover:text-blue-600 transition-colors">ኮርሶች</a>
+                    <a href="#teachers" class="text-gray-600 hover:text-blue-600 transition-colors">መምህራን</a>
+                    <a href="#pricing" class="text-gray-600 hover:text-blue-600 transition-colors">ክፍያ</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors">ምስክርነት</a>
+                    <a href="#contact" class="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition-all transform hover:scale-105 shadow-md">አሁን ይመዝገቡ</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section (መግቢያ ክፍል) -->
+    <section class="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white py-24 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1920&q=80')] opacity-10 bg-cover bg-center"></div>
+        <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block bg-blue-500/20 text-blue-400 border border-blue-500/30 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">እንኳን በደህና መጡ ወደ አዲስ ዲጂታል ስኪልስ አካዳሚ</span>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                በኢንተርኔት ገንዘብ ማግኘትን <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">ከዚህ ጀምር!</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed">
+                የዘመኑን ተፈላጊ ዲጂታል ክህሎቶች በተግባር በመማር፣ ከቤትዎ ሳይወጡ በዶላር እና በብር የሚከፍሉ ስራዎችን የሚሰሩበትን እድል ያመቻቹ። ለወደፊት ህይወትዎ ዛሬውኑ ኢንቨስት ያድርጉ።
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#pricing" class="w-full sm:w-auto bg-blue-600 text-white text-lg font-semibold px-8 py-4 rounded-xl hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/30 hover:-translate-y-0.5 text-center">
+                    አሁን ይመዝገቡ <i class="fa-solid fa-arrow-right mr-2 text-sm"></i>
+                </a>
+                <a href="#courses" class="w-full sm:w-auto bg-white/10 text-white text-lg font-semibold px-8 py-4 rounded-xl hover:bg-white/20 transition-all border border-white/20 text-center">
+                    ኮርሶችን ይመልከቱ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. About Section (ስለ እኛ) -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-blue-600 font-bold tracking-wider uppercase text-sm block mb-2">ማንነታችን</span>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6 sm:text-4xl">የወጣቶችን የገንዘብ ነጻነት በተግባራዊ ስልጠና ማረጋገጥ</h2>
+                    <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                        አዲስ ዲጂታል ስኪልስ አካዳሚ በኢትዮጵያ ውስጥ ላሉ ወጣቶች በንድፈ-ሀሳብ ላይ ብቻ ያልተገደቡ፣ በተግባር የተደገፉ የኦንላይን ስራ ክህሎቶችን የሚያስተምር መሪ ተቋም ነው። ዋና ትኩረታችን ተማሪዎቻችን ስልጠናውን እንደጨረሱ ቀጥታ ገቢ ማግኘት የሚችሉበትን መንገድ መፍጠር ነው።
+                    </p>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        የእኛ ተልዕኮ የሀገራችን ወጣቶች የአለምአቀፉን የዲጂታል ኢኮኖሚ ተጠቃሚ እንዲሆኑ እና በፍሪላንሲንግ፣ በዲጂታል ማርኬቲንግ እንዲሁም በቴክኖሎጂ ዘርፍ የራሳቸውን የገቢ ምንጭ እንዲፈጥሩ ማስቻል ነው።
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="border-r-4 border-blue-600 pr-4">
+                            <h4 class="text-2xl font-bold text-gray-900">100%</h4>
+                            <p class="text-gray-500 text-sm">በተግባር የተደገፈ ስልጠና</p>
+                        </div>
+                        <div class="border-r-4 border-cyan-500 pr-4">
+                            <h4 class="text-2xl font-bold text-gray-900">ቀጣይነት ያለው</h4>
+                            <p class="text-gray-500 text-sm">የስራ ድጋፍና ማህበረሰብ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Students Training" class="rounded-2xl shadow-2xl w-full object-cover h-[450px]">
+                    <div class="absolute -bottom-6 -left-6 bg-blue-600 text-white p-6 rounded-2xl shadow-xl hidden sm:block">
+                        <p class="text-xl font-bold">የወደፊትዎን ስራ</p>
+                        <p class="text-sm opacity-90">ዛሬውኑ በቤቶ ይቅረጹ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Courses Section (የሚሰጡ ኮርሶች) -->
+    <section id="courses" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 font-bold tracking-wider uppercase text-sm block mb-2">የምናስተምራቸው ክህሎቶች</span>
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">ገበያ ላይ ተፈላጊ የሆኑ የክህሎት ማበልጸጊያ ኮርሶች</h2>
+                <p class="text-gray-600 text-lg">እነዚህ ኮርሶች የተመረጡት በአለምአቀፍ ደረጃ ከፍተኛ ክፍያ የሚከፈልባቸው እና አሁን ላይ ሰፊ የስራ እድል ያላቸው በመሆናቸው ነው።</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">ፍሪላንሲንግ (Freelancing)</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">እንደ Upwork እና Fiverr ባሉ አለምአቀፍ ድረ-ገጾች ላይ አካውንት በመክፈት፣ ደንበኞችን በማነጋገር እና ስራዎችን በመስራት በዶላር መከፈል የሚችሉበትን መንገድ ይማሩ።</p>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">ዲጂታል ማርኬቲንግ (Digital Marketing)</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">የተለያዩ ምርቶችንና አገልግሎቶችን ሶሻል ሚዲያን (Facebook, TikTok, Telegram) በመጠቀም በማስተዋወቅ ሽያጭን የመጨመር እና የማስታወቂያ ስራዎችን መስራት።</p>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">ዌብ ዲቨሎፕመንት (Web Development)</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">ከመሰረቱ ጀምሮ ድረ-ገጾችን መገንባት፣ የንግድ ድርጅቶች ዌብሳይቶችን መስራት እና የቴክኖሎጂ እውቀትዎን ወደ ገቢ መቀየር የሚችሉበት ተግባራዊ ኮርስ።</p>
+                </div>
+
+                <!-- Course 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">AI Tools & Automation</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">የአርቲፊሻል ኢንተለጀንስ (AI) መሳሪያዎችን በመጠቀም ስራዎችን በከፍተኛ ፍጥነት መስራት፣ ይዘቶችን (Content) ማዘጋጀት እና ስራዎችን ማቀላጠፍ።</p>
+                </div>
+
+                <!-- Course 5 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Online Business & Entrepreneurship</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">የራስዎን የኢንተርኔት ንግድ (E-commerce) እንዴት እንደሚጀምሩ፣ ክፍያዎችን እንዴት እንደሚቀበሉ እና ስራዎን እንዴት እንደሚያሳድጉ የሚያሳይ ስልጠና።</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Teachers Section (መምህራን) -->
+    <section id="teachers" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 font-bold tracking-wider uppercase text-sm block mb-2">አሰልጣኞቻችን</span>
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">በዘርፉ ልምድ ካላቸው ባለሙያዎች ይማሩ</h2>
+                <p class="text-gray-600 text-lg">መምህራኖቻችን በኦንላይን ስራ ላይ ለብዙ አመታት የሰሩ እና ውጤታማ የሆኑ ባለሙያዎች ናቸው።</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Teacher 1 -->
+                <div class="bg-gray-50 rounded-2xl p-6 text-center border border-gray-100 shadow-sm">
+                    <div class="w-32 h-32 mx-auto rounded-full bg-blue-100 mb-4 overflow-hidden flex items-center justify-center">
+                        <i class="fa-solid fa-user text-5xl text-blue-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">መምህር ዳንኤል</h3>
+                    <p class="text-blue-600 font-medium text-sm mb-3">Freelancing Expert</p>
+                    <p class="text-gray-500 text-sm">"በአለምአቀፍ ገበያ ላይ ከአምስት አመት በላይ በፍሪላንሰርነት የሰራሁ ሲሆን፣ እርስዎም የራስዎን መንገድ እንዲፈጥሩ ለመርዳት ዝግጁ ነኝ።"</p>
+                </div>
+
+                <!-- Teacher 2 -->
+                <div class="bg-gray-50 rounded-2xl p-6 text-center border border-gray-100 shadow-sm">
+                    <div class="w-32 h-32 mx-auto rounded-full bg-cyan-100 mb-4 overflow-hidden flex items-center justify-center">
+                        <i class="fa-solid fa-user-tie text-5xl text-cyan-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">መምህርት ሳራ</h3>
+                    <p class="text-blue-600 font-medium text-sm mb-3">Digital Marketing Specialist</p>
+                    <p class="text-gray-500 text-sm">"የሶሻል ሚዲያ ማስታወቂያዎችን በመጠቀም የድርጅቶችን ሽያጭ ማሳደግ ትልቅ ገቢ አለው። ይህንን ሚስጥር አብረን እንማራለን።"</p>
+                </div>
+
+                <!-- Teacher 3 -->
+                <div class="bg-gray-50 rounded-2xl p-6 text-center border border-gray-100 shadow-sm">
+                    <div class="w-32 h-32 mx-auto rounded-full bg-purple-100 mb-4 overflow-hidden flex items-center justify-center">
+                        <i class="fa-solid fa-user-gear text-5xl text-purple-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">መምህር ሚካኤል</h3>
+                    <p class="text-blue-600 font-medium text-sm mb-3">Web Development Trainer</p>
+                    <p class="text-gray-500 text-sm">"ዌብሳይት መገንባት አስደሳችና ከፍተኛ ገቢ የሚያስገኝ ጥበብ ነው። ምንም አይነት የኮዲንግ እውቀት ሳይኖርዎት ማስተማር እችላለሁ።"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Pricing Section (የክፍያ ፕላኖች) -->
+    <section id="pricing" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 font-bold tracking-wider uppercase text-sm block mb-2">የክፍያ አማራጮች</span>
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">ለእርስዎ የሚስማማውን ፕላን ይምረጡ</h2>
+                <p class="text-gray-600 text-lg">ተመጣጣኝ በሆነ ክፍያ የወደፊት ህይወትዎን የሚቀይሩ ስልጠናዎችን ያግኙ።</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8 items-stretch">
+                <!-- Basic Plan -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">መሰረታዊ (Basic)</h3>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-gray-900">500 ETB</span>
+                            <span class="text-gray-500">/ በወር</span>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 mb-8">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> የመሰረታዊ ኮርሶች መግቢያ</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> የቪዲዮ ትምህርቶች</li>
+                            <li class="flex items-center gap-3 text-gray-400 line-through"><i class="fa-solid fa-xmark text-red-400"></i> የማህበረሰብ ግሩፕ መግቢያ</li>
+                            <li class="flex items-center gap-3 text-gray-400 line-through"><i class="fa-solid fa-xmark text-red-400"></i> የቀጥታ (Live) ምክክር</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="block w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-3 rounded-xl text-center transition-colors">ይመዝገቡ</a>
+                </div>
+
+                <!-- Standard Plan (Popular) -->
+                <div class="bg-white rounded-2xl p-8 border-2 border-blue-600 shadow-xl flex flex-col justify-between relative transform lg:-translate-y-2">
+                    <span class="absolute -top-4 right-6 bg-blue-600 text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">ተመራጭ</span>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">መካከለኛ (Standard)</h3>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-gray-900">1000 ETB</span>
+                            <span class="text-gray-500">/ በወር</span>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 mb-8">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> ሁሉንም ኮርሶች የማግኘት መብት</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> የተቀረጹ የቪዲዮ ትምህርቶች</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> የቪአይፒ ቴሌግራም ግሩፕ አባልነት</li>
+                            <li class="flex items-center gap-3 text-gray-400 line-through"><i class="fa-solid fa-xmark text-red-400"></i> የቀጥታ (Live) ምክክር</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl text-center transition-colors shadow-md">ይመዝገቡ</a>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">ከፍተኛ (Premium)</h3>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-gray-900">2000 ETB</span>
+                            <span class="text-gray-500">/ በወር</span>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 mb-8">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> ሁሉንም ኮርሶች + ማቴሪያሎች</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> የቪአይፒ ማህበረሰብ አባልነት</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> ከባለሙያዎች ጋር የቀጥታ (Live) ስብሰባ</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-green-500"></i> የ1 ለ 1 የማማከር አገልግሎት</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="block w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-3 rounded-xl text-center transition-colors">ይመዝገቡ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Testimonials Section (የተማሪ ምስክርነት) -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 font-bold tracking-wider uppercase text-sm block mb-2">የተማሪዎች ድምጽ</span>
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">ህይወታቸውን የቀየሩ የተማሪዎቻችን ምስክርነት</h2>
+                <p class="text-gray-600 text-lg">ከእኛ ጋር ተምረው አሁን ላይ ስኬታማ የሆኑ ተማሪዎች ምን ይላሉ?</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 relative">
+                    <span class="text-6xl text-blue-200 absolute top-4 right-4 font-serif">“</span>
+                    <p class="text-gray-600 italic mb-6 relative z-10">"በዚህ አካዳሚ በፍሪላንሲንግ ኮርስ ከተመረቅኩ በኋላ Upwork ላይ የመጀመሪያ ስራዬን አገኘሁ። አሁን በወር ከ 400 ዶላር በላይ እየሰራሁ ህይወቴን እመራለሁ። በጣም አመሰግናለሁ!"</p>
+                    <div>
+                        <h4 class="font-bold text-gray-900">ዮናስ ከበደ</h4>
+                        <p class="text-gray-400 text-sm">የቀድሞ ተማሪ (Freelancer)</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 relative">
+                    <span class="text-6xl text-blue-200 absolute top-4 right-4 font-serif">“</span>
+                    <p class="text-gray-600 italic mb-6 relative z-10">"የዲጂታል ማርኬቲንግ ስልጠናው በጣም ግልጽ እና ተግባራዊ ነበር። አሁን ለተለያዩ የአገር ውስጥ ድርጅቶች የሶሻል ሚዲያ ማስታወቂያዎችን በመስራት ጥሩ ገቢ እያገኘሁ ነው።"</p>
+                    <div>
+                        <h4 class="font-bold text-gray-900">ሄለን አስፋው</h4>
+                        <p class="text-gray-400 text-sm">የቀድሞ ተማሪ (Social Media Manager)</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 relative">
+                    <span class="text-6xl text-blue-200 absolute top-4 right-4 font-serif">“</span>
+                    <p class="text-gray-600 italic mb-6 relative z-10">"ስለ ኮምፒውተር ሰፊ እውቀት አልነበረኝም፣ ነገር ግን እዚህ አካዳሚ የዌብሳይት ስራን ተምሬ ዛሬ ለሰዎች ድረ-ገጽ እሰራለሁ። በራሴ እንድተማመን አድርጎኛል።"</p>
+                    <div>
+                        <h4 class="font-bold text-gray-900">አቤል ተስፋዬ</h4>
+                        <p class="text-gray-400 text-sm">የቀድሞ ተማሪ (Web Developer)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Contact Section (እኛን ያግኙ) -->
+    <section id="contact" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Contact Info -->
+                <div>
+                    <span class="text-blue-400 font-bold tracking-wider uppercase text-sm block mb-2">ያግኙን</span>
+                    <h2 class="text-3xl font-bold sm:text-4xl mb-6">የተሻለ ነገን ለመገንባት ዛሬውኑ ያነጋግሩን</h2>
+                    <p class="text-gray-400 text-lg mb-8">ስለ ስልጠናዎቹ ተጨማሪ ጥያቄ ካለዎት ወይም መመዝገብ ከፈለጉ ከታች ባሉት አድራሻዎች በስልክ ወይም በኢሜይል ሊያገኙን ይችላሉ።</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-blue-400 text-xl">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm">የስልክ ቁጥር</p>
+                                <p class="text-lg font-semibold">+251 91 234 5678</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-blue-400 text-xl">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm">ኢሜይል አድራሻ</p>
+                                <p class="text-lg font-semibold">info@addisdigitalskills.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-blue-400 text-xl">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm">አድራሻ</p>
+                                <p class="text-lg font-semibold">አዲስ አበባ፣ ኢትዮጵያ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp CTA -->
+                    <div class="mt-8">
+                        <a href="https://wa.me/251912345678" target="_blank" class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-xl transition-all shadow-lg transform hover:-translate-y-0.5">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i> በዋትስአፕ ያናግሩን
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
+                    <h3 class="text-xl font-bold mb-6">የምዝገባ እና የመልዕክት ቅጽ</h3>
+                    <form action="#" method="POST" class="space-y-5">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">ሙሉ ስም (ስም)</label>
+                            <input type="text" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="እባክዎ ስምዎን ያስገቡ" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">ኢሜይል</label>
+                            <input type="email" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="የኢሜይል አድራሻዎ" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">መልዕክት</label>
+                            <textarea rows="4" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="የሚፈልጉትን ኮርስ ወይም ጥያቄ እዚህ ይጻፉ..." required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-colors shadow-lg">መልዕክት ላክ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-gray-500 py-8 text-center border-t border-white/5">
+        <p class="text-sm">&copy; 2026 አዲስ ዲጂታል ስኪልስ አካዳሚ። መብቱ በህግ የተጠበቀ ነው።</p>
+    </footer>
+
+</body>
+</html>
